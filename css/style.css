@@ -41,3 +41,8 @@ body {
     padding: 40px;
     background-color: #ffffff;
 }
+
+.display{
+  margin-bottom: 40px;
+  width: 100%;
+}
