@@ -69,3 +69,27 @@ body {
   color: #000;
   font-style: 'Jost';
 }
+
+.secondary-input{
+  position: absolute;
+  right: 16px;
+  top: 20px;
+  font-size: 30px;
+  width: 90%;
+  box-sizing:border-box;
+  background-color: transparent;
+  /* outline: none;
+  border: none; */
+  text-align: right;
+  font-weight: 600;
+  font-style: 'Jost';
+  color: #000;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 12px;
+  margin-top: 12px;
+}
