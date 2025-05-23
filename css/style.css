@@ -35,14 +35,14 @@ body {
   border-radius: 100%;
 }
 
-.container{
-    border-radius: 33px;
-    border: 10px solid #e2e2e2;
-    padding: 40px;
-    background-color: #ffffff;
+.container {
+  border-radius: 33px;
+  border: 10px solid #e2e2e2;
+  padding: 40px;
+  background-color: #ffffff;
 }
 
-.display{
+.display {
   margin-bottom: 40px;
   width: 100%;
   height: 147px;
@@ -54,7 +54,7 @@ body {
   position: relative;
 }
 
-.primary-input{
+.primary-input {
   position: absolute;
   right: 16px;
   bottom: 20px;
@@ -67,29 +67,62 @@ body {
   text-align: right;
   font-weight: 600;
   color: #000;
-  font-style: 'Jost';
+  font-style: "Jost";
 }
 
-.secondary-input{
+.secondary-input {
   position: absolute;
   right: 16px;
   top: 20px;
   font-size: 30px;
   width: 90%;
-  box-sizing:border-box;
+  box-sizing: border-box;
   background-color: transparent;
-  /* outline: none;
-  border: none; */
+  outline: none;
+  border: none;
   text-align: right;
   font-weight: 600;
-  font-style: 'Jost';
+  font-style: "Jost";
   color: #000;
 }
 
-.row{
+.row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
-  row-gap: 12px;
   margin-top: 12px;
+}
+
+.btn,
+.equal-btn {
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 16px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: "Jost";
+  /* for converting cursor to pointer */
+  cursor: pointer;
+}
+
+.equal-btn {
+  background-color: #ffc138;
+  color: #8c5a00;
+}
+
+.btn-primary{
+  background-color: #fceebd;
+  color: #bd882a;
+}
+
+.btn-expanded{
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+
+.copyright-text{
+  font-family: Poppins;
 }
